@@ -1,0 +1,126 @@
+body, #root, .App {
+    height: 100vh;
+}
+.jumbotron, .main {
+    margin-bottom: 10px;
+}
+
+#jumboHeader {
+    background-image: url(./images/drawing.jpeg)
+}
+
+.main {
+    height: 67vh;
+}
+
+.jumbotron {
+    height: 15vh;
+    width:100%;
+    margin-left: 0;
+}
+
+#headerCard {
+    background: lightgray;
+    opacity:0.9;
+    height: 128px;
+    font-family: 'Cabin Sketch', cursive;
+    font-size:22px;
+}
+
+#homeButton {
+    margin-left: 184px;
+}
+
+#headerCard h2 {
+    margin-top: 14px;
+    font-size: 2.7rem;
+}
+
+#link {
+    color:white;
+}
+.jumbotron a {
+    margin-right: 30px;
+}
+.d-none {
+    display: none;
+}
+
+.footerText {
+    margin-bottom: 0;
+    text-align: left
+}
+
+#picture, #questionMark {
+    height: 100px;
+    width: 200px;
+}
+#questionMark {
+    height: 300px;
+    width: 300px;
+}
+
+#jumboFooter {
+    padding-top: 0;
+}
+
+#centerInformation {
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+caption {
+    font-size: 13px;
+}
+
+.mapboxgl-canvas {
+    position:relative !important;
+}
+
+.faq {
+    text-align: left;
+    height:400px;
+    overflow-y: scroll;
+}
+
+.questionRow {
+    background-color: rgb(231, 228, 228);
+}
+.question {
+    color: rgb(0, 153, 255);
+    font-size: 30px;
+
+}
+
+.answer {
+    color: rgb(116, 223, 80);
+    font-size: 30px;
+}
+.answerText {
+    color: rgb(88, 86, 86);
+}
+
+.faqTable td, .faqTable th {
+    vertical-align: inherit;
+}
+
+.legend {
+    float:right;
+    font-size:12px;
+    text-align: left;
+}
+
+#green, #congratulationMessage {
+    color: #66b032;
+}
+
+#red {
+    color: #d00;
+}
+#darkRed {
+    color: #8b0000;
+}
+
+#queueBody {
+    margin-top:4rem;
+}
